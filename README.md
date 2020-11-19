@@ -1,10 +1,10 @@
 # airdnd
 
-2020.08.03부터 2020.09.12까지 6주간 진행한 airbnb 클론 코딩 프로젝트입니다.   
+2020.08.03부터 2020.09.12까지 6주간 진행한 airbnb 클론 코딩 프로젝트입니다.  
 기획 1주, 개발 5주의 일정으로 진행하였습니다.
 <br>
 <br>
-[![aidnd](/src/Assets/Img/airdndCapture.png)](https://www.youtube.com/watch?v=iB43qkoJuB0)   
+[![aidnd](/src/Assets/Img/airdndCapture.png)](https://www.youtube.com/watch?v=iB43qkoJuB0)  
 유튜브 링크 : <https://www.youtube.com/watch?v=iB43qkoJuB0>
 
 <br>
@@ -29,6 +29,16 @@
 <br>
 
 ## 페이지별 기능
+
+### 메인 페이지
+
+- 로그인 성공시 유저 데이터를 가져와 user 상태 업데이트
+- 쿠키/세션을 활용한 로그인 상태 유지
+- 검색 폼 스크롤 위치에 따른 검색바 UI 변경
+- 검색 폼에서 장소 검색 시 자동 완성 결과 표시
+- 로그인/회원가입 폼 유효성 검사
+- 로그인/회원가입 폼 유효성 검사 실패 메세지 표시 및 해당 폼 요소 중 첫번째 요소 포커스
+- 로그인/회원가입 중복 체크 검사 결과에 따른 메세지 표시
 
 ### 숙소 페이지
 
@@ -77,15 +87,14 @@
 - 검색 결과에 따라 설정할 수 있는 필터 조건에 대한 정보도 fetch하여 모달에 렌더
 - 최근 본 숙소 페이지에 대한 데이터를 가져와 최근 숙소 리스트에 렌더
 
-
 <br>
 
 ## 프론트엔드 사용 기술
 
 - JavaScript
 - React
-- router
+- react-router-dom
 - redux
 - redux-thunk
-- Styled-Component
+- styled-components
 - socket.io
